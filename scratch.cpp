@@ -24,3 +24,8 @@ void mystery2() {
 	}
 	cout << x << " " << y << endl;
 }
+
+int main() {
+	mystery1();
+	mystery2();
+}
