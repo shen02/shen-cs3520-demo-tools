@@ -4,8 +4,8 @@ CXXFLAGS=-std=c++11 -O0 -g -fno-inline -Wall # -Werror -pedantic-errors
 LDFLAGS=-std=c++11
 
 ## for gcov
-#CXXFLAGS:=$(CXXFLAGS) -fprofile-arcs -ftest-coverage
-#LDFLAGS:=$(LDFLAGS) -fprofile-arcs
+CXXFLAGS:=$(CXXFLAGS) -fprofile-arcs -ftest-coverage
+LDFLAGS:=$(LDFLAGS) -fprofile-arcs
 
 all: $(PROGRAMS)
 
